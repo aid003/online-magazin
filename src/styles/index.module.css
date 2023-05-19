@@ -1,0 +1,39 @@
+.heading {
+  margin-left: 5vh;
+  margin-top: 5vh;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.productHolder {
+  display: flex;
+  width: 100%;
+  padding: 3vh 5vh 0vh 5vh;
+  align-items: center;
+  flex-direction: row;
+}
+
+.productCard {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-right: 10vh;
+}
+
+.buyButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 20px;
+  font-size: larger;
+  font-weight: 600;
+  width: 15vh;
+  height: 5vh;
+  border: none;
+}
